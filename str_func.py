@@ -3,7 +3,7 @@ new_word = input("Введите слово: ")
 
 def word(new_word):
     """Принимает строку и возвращает его
-    со всеми заглавными буквами"""
+     в верхнем регистре"""
     new_word = new_word.upper()
     return new_word
 
